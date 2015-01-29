@@ -39,8 +39,7 @@ class Download implements Runnable {
 			long begin = id * alone; // 第个线程读取文件的开始位置
 			reader.seek(begin); // 定位到开始位置
 			writer.seek(begin);
-			long end = (begin + alone) > reader.length() ? reader.length()
-					: (begin + alone); // 计算每个线程的结束位置
+			long end = (begin + alone) > reader.length() ? reader.length() : (begin + alone); // 计算每个线程的结束位置
 			while (begin < end) {
 				int len = 0;
 				if (begin + buflen < end) { // 如果可以装满一个缓冲区
@@ -67,7 +66,7 @@ class Download implements Runnable {
 	}
 }
 
-public class JTLTool {
+public class CopyOfJTLTool {
 
 	public static String source = "/export/servers/jmeter/script/jtl/JmeterTestReport201501260426.jtl";
 	public static String dest = "/export/servers/jmeter/script/jtl/JmeterTestReport201501260426a.jtl";

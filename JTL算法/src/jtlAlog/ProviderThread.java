@@ -13,6 +13,7 @@ public class ProviderThread extends Thread{
 	private long threadDivision = 0;		//一个线程读取的总长度（即一个段的长度）
 	private long threadSection = 0;			//一个线程每次读取的长度（即一个节的长度）
 	private int standardColNum = 10;		//正确格式下的列数
+	private long sectionArrayMaxLen = 0;	//一个节最多建立的数组长度（估算出来的
 	
 	private long computeCount = 0;			//总行数
 	private long discardCount = 0;			//丢弃的行数
@@ -92,6 +93,14 @@ public class ProviderThread extends Thread{
 
 	public void setDiscardCount(long discardCount) {
 		this.discardCount = discardCount;
+	}
+
+	public long getSectionArrayMaxLen() {
+		return sectionArrayMaxLen;
+	}
+
+	public void setSectionArrayMaxLen(long sectionArrayMaxLen) {
+		this.sectionArrayMaxLen = sectionArrayMaxLen;
 	}
 
 	public void run() {
