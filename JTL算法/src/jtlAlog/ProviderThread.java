@@ -180,6 +180,6 @@ public class ProviderThread extends Thread{
 				e.printStackTrace();
 			}
 		}
-		System.out.println(threadName + " end...... （ 计算行数：" + computeCount +" 丢弃行数：" + discardCount + "）");
+		System.out.println(threadName + " end......  （ 计算行数：" + computeCount +",丢弃行数：" + discardCount + "）");
 	}
 }
