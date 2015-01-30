@@ -154,10 +154,10 @@ public class ProviderThread extends Thread{
 					arrayTool.putData(computeCount + "", timeStemp, responseTime, version + "");
 					//切割每一行，然后对每一列进行处理end
 					
-					begin += lineLen;		
+					begin += lineLen;	    	
 				}
 				//如果读完了一节要将装好的多个接口的数据集clone并交付给另一个计算线程start
-				//...
+				//...。。。
 				//如果读完了一节要将装好的多个接口的数据集clone并交付给另一个计算线程end
 //				for(ArrayTool at : dataMap.values()){
 				for(ArrayTool4Test at : dataMap.values()){
