@@ -61,8 +61,9 @@ public class JTLManager {
 	}
 
 	public void sectionalProcess(){
+		RandomAccessFile file = null;
 		try {
-			RandomAccessFile file = new RandomAccessFile(source, "r");
+			file = new RandomAccessFile(source, "r");
 			long totalLen = file.length();
 			long threadDivision = totalLen / threadNum;								//一个段（线程段）的字符数量，即每个线程读取的字符数量（计算得到）			
 			long pointCountPerThread = totalRequirePointCount / threadNum;			//每个线程分担的点数（同时也是每个段需要分的节数）
@@ -85,6 +86,12 @@ public class JTLManager {
 			e.printStackTrace();
 		}catch (IOException e) {
 			e.printStackTrace();
+		}finally{
+			try {
+				file.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 		
 	}
