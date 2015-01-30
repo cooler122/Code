@@ -19,7 +19,7 @@ public class ProviderThread extends Thread{
 	private long discardCount = 0;			//丢弃的行数
 	private Map<String, ArrayTool> arrayToolMap = new HashMap<String, ArrayTool>();
 	
-//看看各个线程用数组装数据是否可行。
+//看看各个线程用数组装数据是否可行。此处用的是ArrayTool工具类
 
 	public ProviderThread() {	}
 	

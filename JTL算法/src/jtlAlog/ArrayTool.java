@@ -1,5 +1,7 @@
 package jtlAlog;
 
+//数组工具，用来放置从文本中读出来的每行的有效数据
+
 public class ArrayTool {
 	private final int xLength = 2;					//这个可以固定为2，只用取出2个有用的列(时间戳_1、响应时间_2)
 	private int yLength = 1000;						//这个的长短或许能控制计算结果的精度（靠需要画多少点来计算出来）
