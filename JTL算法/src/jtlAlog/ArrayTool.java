@@ -19,7 +19,5 @@ public class ArrayTool {
 		}else if(index >= yLength){
 			throw new IllegalArgumentException("index out!");
 		}
-
-	}
-	
+	}	
 }

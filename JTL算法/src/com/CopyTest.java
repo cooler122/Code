@@ -43,7 +43,7 @@ class Download implements Runnable {
 			long end = (begin + alone) > reader.length() ? reader.length() : (begin + alone); // 计算每个线程的结束位置
 			while (begin < end) {
 				int len = 0;
-				if (begin + buflen < end) { // 如果可以装满一个缓冲区
+				if (begin + buflen < end) { 							// 如果可以装满一个缓冲区
 					len = reader.read(buffer);
 				} else {
 					len = reader.read(buffer, 0, (int) (end - begin));
