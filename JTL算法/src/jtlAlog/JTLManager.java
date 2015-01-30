@@ -68,7 +68,7 @@ public class JTLManager {
 			long threadDivision = totalLen / threadNum;								//一个段（线程段）的字符数量，即每个线程读取的字符数量（计算得到）			
 			long pointCountPerThread = totalRequirePointCount / threadNum;			//每个线程分担的点数（同时也是每个段需要分的节数）
 			long threadSection = threadDivision / pointCountPerThread;				//一个节的字符数量（计算得到）
-			long sectionArrayMaxLen = (long)(threadSection / minCharCountPerLine * arrayLenRate);	//一个节获取的行数的估算值（乘上自设的调整倍数）
+			int sectionArrayMaxLen = (int)(threadSection / minCharCountPerLine * arrayLenRate);	//一个节获取的行数的估算值（乘上自设的调整倍数）
 			
 			for(int i = 1; i <= threadNum; i ++){
 				ProviderThread st = new ProviderThread();
@@ -99,9 +99,11 @@ public class JTLManager {
 	public static void main(String args[]){
 		JTLManager sm = new JTLManager();
 		
-		sm.setSource("D:/Jmeter.jtl");												//设置文件来源
-		sm.setThreadNum(5);															//设置线程数量
+		sm.setSource("D:/result0.jtl");												//设置文件来源
+		sm.setThreadNum(2);															//设置线程数量
 		sm.setStandardColNum(10);													//设置标准行数
+		sm.setTotalRequirePointCount(10); 											//需要的总点数
+		sm.setMinCharCountPerLine(60);
 		//注意，还有很多其他的变量也需要事先设置
 		sm.sectionalProcess();
 	}
