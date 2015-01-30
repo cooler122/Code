@@ -88,7 +88,7 @@ public class JTLManager {
 			e.printStackTrace();
 		}finally{
 			try {
-				file.close();
+				file.close();														//关闭文件流
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
