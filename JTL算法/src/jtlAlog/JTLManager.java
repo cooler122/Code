@@ -99,9 +99,9 @@ public class JTLManager {
 	public static void main(String args[]){
 		JTLManager sm = new JTLManager();
 		
-		sm.setSource("D:/Jmeter.jtl");
-		sm.setThreadNum(5);
-		sm.setStandardColNum(10);
+		sm.setSource("D:/Jmeter.jtl");												//设置文件来源
+		sm.setThreadNum(5);															//设置线程数量
+		sm.setStandardColNum(10);													//设置标准行数
 		
 		sm.sectionalProcess();
 	}
