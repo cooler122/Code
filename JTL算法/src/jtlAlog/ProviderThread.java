@@ -123,12 +123,18 @@ public class ProviderThread extends Thread{
 //			Map<String, ArrayTool> dataMap = null;	
 			Map<String, ArrayTool4Test> dataMap = null;	
 			int version = 0;
-			while (begin < end) {			
+			out:while (begin < end) {			
 //				dataMap = new HashMap<String, ArrayTool>();
 				dataMap = new HashMap<String, ArrayTool4Test>();
-				
+				String line = null;
 				while(begin < sectionEnd){
-					String line = reader.readLine();							//读取一行
+					line = reader.readLine();							//读取一行
+					if(null == line){
+						for(ArrayTool4Test at : dataMap.values()){				//打印最后一个节
+							System.out.println(this.getThreadName() + "		" + at.toString(threadId + "|	"));
+						}
+						break out;
+					}
 					computeCount ++;											//读取一行之后，计算行数加一
 					int lineLen = line.length();								//计算此行长度					
 					
@@ -160,9 +166,8 @@ public class ProviderThread extends Thread{
 				//...
 				//如果读完了一节要将装好的多个接口的数据集clone并交付给另一个计算线程end
 //				for(ArrayTool at : dataMap.values()){
-				for(ArrayTool4Test at : dataMap.values()){
-
-					System.out.println(this.getThreadName() + "		" + at.toString(threadId + "	"));
+				for(ArrayTool4Test at : dataMap.values()){						//打印所有节（除了最后一个节）
+					System.out.println(this.getThreadName() + "		" + at.toString(threadId + "|	"));
 				}
 				sectionEnd = begin + threadSection;		//此时begin已经读到此线程负责的一个节的末尾，sectionEnd要再加一个节长
 				version ++;

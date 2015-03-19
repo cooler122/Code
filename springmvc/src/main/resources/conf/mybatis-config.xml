@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="true"/>
+    </settings>
+        <!-- 命名空间 -->
+    <typeAliases>
+         <typeAlias alias="user" type="cn.springmvc.model.User"/>
+        <typeAlias alias="child" type="cn.springmvc.model.Child"/>
+        <typeAlias alias="company" type="cn.springmvc.model.Company"/>
+        <typeAlias alias="position" type="cn.springmvc.model.Position"/>
+    </typeAliases>
+
+    <!-- 映射map -->
+    <mappers>
+    </mappers>
+</configuration>

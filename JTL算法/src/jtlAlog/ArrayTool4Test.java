@@ -28,7 +28,7 @@ public class ArrayTool4Test {
 		StringBuffer sb = new StringBuffer("{ " + index + " :  \n");
 		for(int i = 0; i < dataArray.length; i ++){
 			
-			sb.append(midStr).append(" [ ").append(dataArray[i][0]).append(" , ").append(dataArray[i][1]).append(" , ").append(dataArray[i][2]).append(" ],\n ");
+			sb.append(midStr).append(" [ ").append(dataArray[i][0]).append(" , ").append(dataArray[i][1]).append(" , ").append(dataArray[i][2]).append(" , ").append(dataArray[i][3]).append(" ],\n ");
 		}
 		sb.append(" } \n");
 		return sb.toString();

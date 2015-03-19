@@ -99,8 +99,8 @@ public class JTLManager {
 	public static void main(String args[]){
 		JTLManager sm = new JTLManager();
 		
-		sm.setSource("D:/result0.jtl");												//设置文件来源
-		sm.setThreadNum(2);															//设置线程数量
+		sm.setSource("D:/git/Code/jtlTest.jtl");												//设置文件来源
+		sm.setThreadNum(3);															//设置线程数量
 		sm.setStandardColNum(10);													//设置标准行数
 		sm.setTotalRequirePointCount(10); 											//需要的总点数
 		sm.setMinCharCountPerLine(60);
