@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="reverseAjax:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="piggyback-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="reverseAjax:war exploded" />
+    </root>
+  </artifact>
+</component>
