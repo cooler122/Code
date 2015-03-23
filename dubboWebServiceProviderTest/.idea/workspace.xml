@@ -7,7 +7,7 @@
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/BookController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/dao/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
-    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120960617" ignored="false" />
+    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427124672953" ignored="false" />
     <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121059948" ignored="false" />
     <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120457844" ignored="false" />
     <file path="/applicationContext.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026651773" ignored="false" />
@@ -111,13 +111,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BookServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.9496403">
+            <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LuncherProvider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.36263737">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -384,6 +393,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -527,7 +562,7 @@
       <recent name="com.zs" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+  <component name="RunManager" selected="Application.LuncherProvider">
     <configuration default="false" name="LuncherProvider" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -536,15 +571,15 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="service.LuncherProvider" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.7.0_01" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dubboWebServiceTest" />
+      <module name="dubboWebServiceProviderTest" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -766,8 +801,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.LuncherConsumer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LuncherProvider" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LuncherProvider" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LuncherConsumer" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -786,7 +821,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -807,7 +842,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.27272728" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -902,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="554" selection-end="554" vertical-scroll-proportion="0.5935252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="36" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.76258993">
@@ -985,10 +1013,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.9496403">
+        <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.36263737">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/BookController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/dao/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
-    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120960618" ignored="false" />
+    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427124672953" ignored="false" />
     <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121059947" ignored="false" />
     <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120457843" ignored="false" />
     <file path="/applicationContext.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026651773" ignored="false" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="LuncherConsumer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="23" selection-start="963" selection-end="963" vertical-scroll-proportion="0.17602997">
+            <state line="35" column="16" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.25842696">
               <folding />
             </state>
           </provider>
@@ -991,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="963" selection-end="963" vertical-scroll-proportion="0.17602997">
+        <state line="35" column="16" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.25842696">
           <folding />
         </state>
       </provider>
