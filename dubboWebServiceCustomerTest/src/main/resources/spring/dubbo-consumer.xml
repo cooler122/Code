@@ -16,4 +16,5 @@
 	<!--<impl:registry address="multicast://10.57.41.19:1234" /> -->
 	 <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
 	<dubbo:reference id="dubboService" interface="com.zs.service.DubboService" />
+    <dubbo:reference id="bookService" interface="com.zs.service.BookService" />
 </beans>

@@ -13,6 +13,10 @@
 	<!-- 使用multicast广播注册中心暴露服务地址 -->
 	<!-- <impl:registry address="multicast://10.57.41.19:1234" /> -->
 	<dubbo:protocol name="dubbo" port="20880" />
-	<dubbo:service interface="com.zs.service.DubboService" ref="dubboService" />       <!-- 和本地bean一样实现服务 -->
-	<bean id="dubboService" class="com.zs.service.impl.DubboServiceImpl" />
+
+	<dubbo:service interface="com.zs.service.BookService" ref="bookService" />       <!-- 和本地bean一样实现服务 -->
+	<bean id="bookService" class="com.zs.service.impl.BookServiceImpl" />
+
+    <dubbo:service interface="com.zs.service.DubboService" ref="dubboService" />
+    <bean id="dubboService" class="com.zs.service.impl.DubboServiceImpl" />
 </beans>

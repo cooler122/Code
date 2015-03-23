@@ -17,8 +17,10 @@
 		http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 
 
-	<context:component-scan base-package="com.zs.*" />
+    <context:component-scan base-package="com.zs.*" />
     <mvc:annotation-driven />
+    <!-- 该 BeanPostProcessor 将自动对标注 @Autowired 的 Bean 进行注入 -->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/" />

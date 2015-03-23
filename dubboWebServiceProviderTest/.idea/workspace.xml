@@ -7,16 +7,22 @@
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/BookController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/dao/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
-    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025460155" ignored="false" />
-    <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026210450" ignored="false" />
-    <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026357584" ignored="false" />
+    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120960617" ignored="false" />
+    <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121059948" ignored="false" />
+    <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120457844" ignored="false" />
     <file path="/applicationContext.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026651773" ignored="false" />
     <file path="/app-config.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427027368423" ignored="false" />
     <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/app-config.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427028009454" ignored="false" />
-    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/service/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427033235651" ignored="false" />
-    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427036454036" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/service/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120924870" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121060840" ignored="false" />
     <file path="/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427034205982" ignored="false" />
-    <file path="/fail.jsp" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427034173989" ignored="false" />
+    <file path="/fail.jsp" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123675445" ignored="false" />
+    <file path="/BookServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123941134" ignored="false" />
+    <file path="/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123246938" ignored="false" />
+    <file path="/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120729110" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/BookService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120963441" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/model/Book.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121101053" ignored="false" />
+    <file path="/web.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123725657" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,7 +74,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -78,21 +84,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="820" selection-end="820" vertical-scroll-proportion="-18.615385">
+            <state line="22" column="101" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-11.68">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -105,40 +102,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <file leaf-file-name="BookDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="916" selection-end="916" vertical-scroll-proportion="-6.4">
+            <state line="6" column="10" selection-start="99" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BookServiceImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.9496403">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dubbo-provider.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="0.69155204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/app-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="73" selection-start="999" selection-end="999" vertical-scroll-proportion="-9.4">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,22 +132,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/model/MsgInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/service/DemoService.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/LuncherProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/app-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/fail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zs/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/fail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -522,18 +501,21 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.28923988" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zs.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\CodeProject\dubboWebServiceProviderTest\src\main\webapp" />
       <recent name="D:\git\CodeProject\dubboWebServiceTest\src\test\java" />
@@ -568,6 +550,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="LuncherConsumer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="service.LuncherConsumer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dubboWebServiceProviderTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -580,6 +584,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -610,19 +627,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -636,6 +640,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -748,13 +759,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.LuncherProvider" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LuncherProvider" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LuncherConsumer" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.LuncherProvider" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.LuncherConsumer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LuncherProvider" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -773,14 +786,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6535163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72727275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -794,7 +807,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.3464837" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.27272728" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -870,89 +883,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.039568346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+        <state line="5" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/DubboService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="72" selection-end="72" vertical-scroll-proportion="0.15827338">
+        <state line="4" column="17" selection-start="72" selection-end="72" vertical-scroll-proportion="0.16479401">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/model/MsgInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="916" selection-end="916" vertical-scroll-proportion="-6.4">
+        <state line="5" column="44" selection-start="96" selection-end="120" vertical-scroll-proportion="0.15827338">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/app-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="73" selection-start="999" selection-end="999" vertical-scroll-proportion="-9.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="771" selection-end="771" vertical-scroll-proportion="0.6063618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="820" selection-end="820" vertical-scroll-proportion="-18.615385">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="71" selection-start="13" selection-end="13" vertical-scroll-proportion="0.041904762">
+        <state line="16" column="57" selection-start="554" selection-end="554" vertical-scroll-proportion="0.5935252">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="22" selection-start="945" selection-end="945" vertical-scroll-proportion="0.46441948">
+        <state line="44" column="36" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.76258993">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="95" selection-end="95" vertical-scroll-proportion="-0.08239701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/app-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="73" selection-start="999" selection-end="999" vertical-scroll-proportion="0.41119692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.8700565">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,19 +946,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="41" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.7433962">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="772" selection-end="772" vertical-scroll-proportion="0.68190473">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="0.69155204">
+        <state line="22" column="101" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-11.68">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="99" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.9496403">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

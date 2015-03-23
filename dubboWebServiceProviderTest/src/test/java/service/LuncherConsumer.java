@@ -1,6 +1,8 @@
 package service;
 
+import com.zs.model.Book;
 import com.zs.model.MsgInfo;
+import com.zs.service.BookService;
 import com.zs.service.DubboService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -35,5 +37,11 @@ public class LuncherConsumer  {
 		msgs.add("service");
 		info.setMsgs(msgs);
 		System.out.println(ds.returnMsgInfo(info).getMsgs());
+
+        BookService bookService = (BookService) context.getBean("bookService");
+        Book book = new Book();
+        book.setId(1);
+        Book bookResult = bookService.select(book);
+        System.out.println(bookResult.getName());
 	}
 }
