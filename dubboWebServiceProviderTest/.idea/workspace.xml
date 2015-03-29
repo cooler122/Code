@@ -7,22 +7,79 @@
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/BookController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/dao/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/zs/service/controller/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427025436242" ignored="false" />
-    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427124672953" ignored="false" />
-    <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121059948" ignored="false" />
-    <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120457844" ignored="false" />
-    <file path="/applicationContext.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427026651773" ignored="false" />
+    <file path="/fragment.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427640270280" ignored="false" />
+    <file path="/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427612290263" ignored="false" />
+    <file path="/dubbo-provider.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427610264713" ignored="false" />
+    <file path="/applicationContext.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427632287853" ignored="false" />
     <file path="/app-config.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427027368423" ignored="false" />
-    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/app-config.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427028009454" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/app-config.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427637187559" ignored="false" />
     <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/service/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120924870" ignored="false" />
-    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121060840" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/resources/spring/dubbo-consumer.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427636492468" ignored="false" />
     <file path="/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427034205982" ignored="false" />
     <file path="/fail.jsp" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123675445" ignored="false" />
-    <file path="/BookServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123941134" ignored="false" />
-    <file path="/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123246938" ignored="false" />
-    <file path="/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120729110" ignored="false" />
+    <file path="/BookServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427379521377" ignored="false" />
+    <file path="/BookDao.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427380444460" ignored="false" />
+    <file path="/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427634413208" ignored="false" />
     <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/BookService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427120963441" ignored="false" />
     <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/model/Book.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427121101053" ignored="false" />
-    <file path="/web.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427123725657" ignored="false" />
+    <file path="/web.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427637165069" ignored="false" />
+    <file path="/DubboServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427546447430" ignored="false" />
+    <file path="/spring-mybatis.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427631373679" ignored="false" />
+    <file path="/spring-mvc.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427548944229" ignored="false" />
+    <file path="/ChildServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427630884370" ignored="false" />
+    <file path="/ChildDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427551322682" ignored="false" />
+    <file path="/log4j.properties" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611117256" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/DubboService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/ChildService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/impl/DubboServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/dao/ChildDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/CompanyService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/UserService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/po/Child.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/dao/UserDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/impl/PositionServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/po/Company.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/dao/PositionDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/dao/CompanyDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/impl/ChildServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/po/User.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/po/Position.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/impl/UserServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/PositionService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611689144" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/service/impl/CompanyServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611687998" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/dao/PositionDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611712717" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/dao/CompanyDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611712717" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/dao/UserDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611712717" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/dao/ChildDAO.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611712717" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/po/Position.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613347589" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/po/Child.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613332435" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/po/User.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613355404" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/po/Company.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613342641" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/DubboService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/ChildService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/impl/DubboServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/com/zs/service/LuncherProvider.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/com/zs/service/MyTest.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/CompanyService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/test/java/com/zs/service/LuncherConsumer.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427637148602" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/UserService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/impl/PositionServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/impl/ChildServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/impl/UserServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/impl/CompanyServiceImpl.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/service/PositionService.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749029" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/mpsmodel.log" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613280166" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/mpsmodel.log.1" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749457" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/controller/TestController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427612116098" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/pom.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611749457" ignored="false" />
+    <file path="/LuncherProvider.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427611888363" ignored="false" />
+    <file path="/Child.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427613300932" ignored="false" />
+    <file path="/ChildMapper.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427625051190" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/webapp/WEB-INF/web.xml" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427637275799" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/controller/DubboController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427640682480" ignored="false" />
+    <file path="/DubboController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427640261165" ignored="false" />
+    <file path="$PROJECT_DIR$/../dubboWebServiceCustomerTest/src/main/java/com/zs/controller/UserController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427641169330" ignored="false" />
+    <file path="/UserController.java" changelist="ef1faad6-4a52-42b8-9489-41bb249b53e7" time="1427640397156" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,45 +144,97 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="101" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-11.68">
+            <state line="20" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DubboServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="34" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-service-provider.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChildMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/ChildMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="15" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="74" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="76" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-0.84615386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DubboServiceImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="19" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="0.58801496">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java">
+      <file leaf-file-name="PositionMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/PositionMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="10" selection-start="99" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="4" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
+      <file leaf-file-name="CompanyMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/CompanyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LuncherProvider.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.36263737">
+            <state line="9" column="93" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,30 +250,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/DemoService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/LuncherProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/app-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/model/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/fail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/po/po/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/po/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/ChildMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/PositionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/ChildServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/PositionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service-provider.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/CompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenProjectNavigator">
@@ -175,7 +284,25 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="tan.maven.springmvc Maven Webapp" />
+          <option name="myItemId" value="springmvc Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springmvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -189,7 +316,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="tan.maven.springmvc Maven Webapp" />
+          <option name="myItemId" value="springmvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -234,7 +361,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,18 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,28 +462,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dubboWebServiceProviderTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dubboWebServiceProviderTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -397,7 +489,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubboWebServiceProviderTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,7 +669,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="po" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,11 +705,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="MemberChooser.sorted" value="false" />
@@ -552,17 +731,22 @@
       <recent name="com.zs.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\CodeProject\dubboWebServiceProviderTest\src\main\webapp" />
-      <recent name="D:\git\CodeProject\dubboWebServiceTest\src\test\java" />
-      <recent name="D:\git\CodeProject\dubboWebServiceTest\src\main" />
-      <recent name="D:\git\CodeProject\dubboWebServiceTest\src\main\resources" />
-      <recent name="D:\git\CodeProject\dubboWebServiceTest\src\main\java\com\zs\service" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\java\com\zs\po" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\java\com\zs\service" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\java\com\zs\model" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\java\com\zs" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zs" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\webapp\WEB-INF" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\resources\spring" />
+      <recent name="D:\git\Code\dubboWebServiceProviderTest\src\main\resources\mybatis" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LuncherProvider">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
     <configuration default="false" name="LuncherProvider" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -679,7 +863,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -819,8 +1003,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -828,26 +1032,26 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72727275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33962265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3037879" sideWeight="0.58833617" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159091" sideWeight="0.6603774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46655232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -883,7 +1087,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -916,70 +1120,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/ChildServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/DubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="72" selection-end="72" vertical-scroll-proportion="0.16479401">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/model/MsgInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="96" selection-end="120" vertical-scroll-proportion="0.15827338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.76258993">
+        <state line="11" column="13" selection-start="275" selection-end="275" vertical-scroll-proportion="0.45318353">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/model/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="95" selection-end="95" vertical-scroll-proportion="-0.08239701">
+        <state line="19" column="97" selection-start="405" selection-end="405" vertical-scroll-proportion="0.49438202">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/app-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/PositionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="73" selection-start="999" selection-end="999" vertical-scroll-proportion="0.41119692">
+        <state line="14" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.2769784">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dubbo-provider.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/CompanyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.8700565">
+        <state line="14" column="14" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="20" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="91" selection-end="91" vertical-scroll-proportion="0.07913669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/ChildMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/CompanyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="93" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/PositionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="74" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.7433962">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
@@ -989,40 +1230,15 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="772" selection-end="772" vertical-scroll-proportion="0.68190473">
+        <state line="31" column="76" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-0.84615386">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="101" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-11.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="99" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/LuncherProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.36263737">
+        <state line="19" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="0.58801496">
           <folding />
         </state>
       </provider>
@@ -1081,11 +1297,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|dubboWebServiceProviderTest</last-edited>
+          <last-edited>dubboWebServiceProviderTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28923988" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1093,11 +1310,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: junit:junit:3.8.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28923988" />
               </list>
             </option>
           </splitter-proportions>

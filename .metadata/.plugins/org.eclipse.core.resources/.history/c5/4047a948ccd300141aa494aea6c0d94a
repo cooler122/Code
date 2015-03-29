@@ -1,0 +1,13 @@
+package com.service;
+
+import com.model.MsgInfo;
+
+public interface DubboService {
+	
+    public void sayHello();
+    
+    public String returnHello();
+    
+    public MsgInfo returnMsgInfo(MsgInfo info);
+    
+}

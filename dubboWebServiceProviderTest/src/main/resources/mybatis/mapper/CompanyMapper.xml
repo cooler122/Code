@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.dao.CompanyDAO">
+    <resultMap id="companyMap" type="company" >
+        <id column="company_id" property="companyId" jdbcType="INTEGER"/>
+        <result column="company_name" property="companyName"/>
+        <result column="company_information" property="companyInformation"/>
+        <collection property="userList" ofType="user" column="company_id" select="com.zs.dao.UserDAO.selectUsersByCompanyId" />
+    </resultMap>
+
+    <insert id="insertCompany" parameterType="company">
+          insert into t_company(company_id, company_name, company_information )
+          values(#{companyId}, #{companyName}, #{companyInformation} )
+    </insert>
+
+    <delete id="deleteCompany" parameterType="company">
+          delete from t_company
+          where company_id = #{companyId}
+    </delete>
+
+    <update id="updateCompany" parameterType="company">
+          update t_company
+          set  company_name =  #{companyName},
+              company_information =  #{companyInformation}
+    </update>
+    
+    <select id="selectAllCompanys" resultMap="companyMap">
+          select * from t_company;
+    </select>
+
+    <select id="selectCompanysByCon" parameterType="company" resultMap="companyMap">
+          select company_id, company_name,company_information
+          from t_company
+          where company_name = #{companyName}
+    </select>
+
+    <select id="selectCompanysByPK" parameterType="company" resultMap="companyMap">
+          select company_id, company_name, company_information
+          from t_company
+          where company_id = #{company_id}
+    </select>
+         
+
+</mapper>

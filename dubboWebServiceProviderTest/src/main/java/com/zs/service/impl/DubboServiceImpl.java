@@ -1,10 +1,10 @@
 package com.zs.service.impl;
 
-import com.zs.model.MsgInfo;
+import com.zs.vo.MsgInfo;
 import com.zs.service.DubboService;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component(value = "dubboServiceImpl")
+@Service(value = "dubboServiceImpl")
 public class DubboServiceImpl implements DubboService {
 	
 	public void sayHello() {
@@ -17,6 +17,7 @@ public class DubboServiceImpl implements DubboService {
 
 	public MsgInfo returnMsgInfo(MsgInfo info) {
         System.out.println("DubboServiceImpl -- returnMsgInfo()");
+        info.getMsgs().add("dubboServiceImpl");
 		info.getMsgs().add("处理完毕");
 		return info;
 	}

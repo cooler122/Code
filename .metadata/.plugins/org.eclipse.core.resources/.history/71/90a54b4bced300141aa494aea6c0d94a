@@ -1,0 +1,40 @@
+package app;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.zs.model.Book;
+import com.zs.service.BookService;
+
+public class Driver {
+	private static long start = 0;
+	private static long end = 0;
+	private static String result;
+	
+	public static void main(String[] args) throws IOException, ParseException {
+		
+		String configLocation="/dubbo-consumer.xml";
+		ApplicationContext context =new  ClassPathXmlApplicationContext(configLocation);
+		BookService bookService = (BookService) context.getBean("bookService");
+		
+		start = System.currentTimeMillis();
+        Book book = new Book();
+        book.setId(1);
+        Book bookResult = bookService.select(book);
+		result = bookResult.getName();
+		System.out.println(result);
+		
+		end = System.currentTimeMillis();
+		System.out.println("cost time:"+(end - start));
+		
+		if(result != null){
+			System.out.println(true);
+		}else{
+			System.out.println(false);
+		}
+	}
+
+}

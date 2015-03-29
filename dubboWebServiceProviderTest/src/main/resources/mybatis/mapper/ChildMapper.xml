@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.dao.ChildDAO">
+    <resultMap id="childMap" type="child" >
+        <id column="child_id" property="childId" jdbcType="INTEGER"/>
+        <result column="child_name" property="childName"/>
+        <result column="child_information" property="childInformation"/>
+        <result column="birthday" property="birthday"/>
+        <!--<association property="parent" foreignColumn="parent_id" javaType="user"-->
+                     <!--select="cn.springmvc.dao.selectUsersByPK"/>-->
+    </resultMap>
+
+    <insert id="insertChild" parameterType="child">
+          insert into t_child(child_id, child_name,  child_information )
+          values(#{childId}, #{childName}, #{childInformation}, #{childInformation} )
+    </insert>
+
+    <delete id="deleteChild" parameterType="child">
+          delete from t_child
+          where child_id = #{childId}
+    </delete>
+
+    <update id="updateChild" parameterType="child">
+          update t_child
+          set  child_name =  #{childName},
+              child_information =  #{childInformation}
+    </update>
+    
+    <select id="selectAllChilds" resultMap="childMap">
+          select * from t_child;
+    </select>
+
+    <select id="selectChildsByCon" parameterType="child" resultMap="childMap">
+          select child_id, child_name,child_information
+          from t_child
+          where child_name = #{childName}
+    </select>
+
+    <select id="selectChildsByPK" parameterType="java.lang.Integer" resultMap="childMap">
+          select child_id, child_name, child_information
+          from t_child
+          where child_id = #{childId}
+    </select>
+
+    <select id="selectChildsByParentId" parameterType="java.lang.Integer" resultMap="childMap">
+          select child_id, child_name, child_information
+          from t_child
+          where parent_id = #{parentId}
+    </select>
+         
+
+</mapper>

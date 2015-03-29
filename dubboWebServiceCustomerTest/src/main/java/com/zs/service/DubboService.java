@@ -1,6 +1,6 @@
 package com.zs.service;
 
-import com.zs.model.MsgInfo;
+import com.zs.vo.MsgInfo;
 
 public interface DubboService {
 	

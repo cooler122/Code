@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.dao.UserDAO">
+    <resultMap id="userMap" type="user" >
+        <id column="user_id" property="userId" />
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+        <result column="information" property="information"/>
+
+        <association property="company" column="company_id"  select="com.zs.dao.CompanyDAO.selectCompanysByPK"/>
+        <association property="mate" column="mate_id"  select="com.zs.dao.UserDAO.selectUsersByPK"/>
+        <association property="position" column="position_id"  select="com.zs.dao.PositionDAO.selectPositionsByPK"/>
+        <collection property="childList" ofType="child" column="user_id" select="com.zs.dao.ChildDAO.selectChildsByParentId" />
+    </resultMap>
+
+    <insert id="insertUser" parameterType="user" useGeneratedKeys="true" keyColumn="user_id">
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="userId">
+            SELECT LAST_INSERT_ID() FROM t_user
+        </selectKey>
+          insert into t_user( name, age, mate_id, company_id, position_id, information )
+          values( #{name}, #{age}, #{mate.userId}, #{company.companyId}, #{position.positionId}, #{information} )
+    </insert>
+<!--
+    <delete id="deleteUser" parameterType="user">
+          delete from t_user
+          where user_id = #{user.userId}
+    </delete>
+
+    <update id="updateUser" parameterType="user">
+          update t_user
+          set  name =  #{name},
+              age =  #{age},
+              mate_id =  #{mate.userId},
+              company_id =  #{company.companyId},
+              position_id =  #{position.positionId},
+              information =  #{information}
+    </update>
+     -->
+    <select id="selectAllUsers" resultMap="userMap">
+          select user_id, name, age, mate_id, company_id, position_id, information
+           from t_user;
+    </select>
+
+    <select id="selectUsersByCon" parameterType="user" resultMap="userMap">
+          select user_id, name, age, mate_id, company_id, position_id, information
+          from t_user
+          where name = #{name}
+    </select>
+
+    <select id="selectUsersByPK" parameterType="java.lang.Integer" resultMap="userMap">
+          select user_id, name, age, mate_id, company_id, position_id, information
+          from t_user
+          where user_id = #{userId}
+    </select>
+
+    <select id="selectUsersByCompanyId" parameterType="java.lang.Integer" resultMap="userMap">
+          select user_id, name, age, mate_id, company_id, position_id, information
+          from t_user
+          where company_id = #{companyId}
+    </select>
+
+
+</mapper>

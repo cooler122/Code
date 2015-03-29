@@ -1,0 +1,36 @@
+package com.controller;
+
+
+import javax.annotation.Resource;
+
+import com.model.Book;
+
+@Controller
+@RequestMapping("/book.do")
+public class BookController {
+    @Resource(name="bookServiceImpl")
+	private BookServiceImpl bookService;
+
+	@RequestMapping(params = "method=add")
+	public String add(Book book){
+        System.out.println("BookController -- add()");
+		bookService.add(book);
+		return "success";
+	}
+
+	@RequestMapping(params = "method=update")
+	public String update(Book book) {
+		bookService.update(book);
+		return "success";
+	}
+
+	public BookServiceImpl getBookService() {
+		return bookService;
+	}
+
+	@Resource
+	public void setBookService(BookServiceImpl bookService) {
+		this.bookService = bookService;
+	}
+	
+}
