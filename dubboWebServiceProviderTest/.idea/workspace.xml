@@ -140,107 +140,7 @@
     <favorites_list name="dubboWebServiceTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="34" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-service-provider.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service-provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/ChildMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="74" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="76" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-0.84615386">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DubboServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="0.58801496">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PositionMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/PositionMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/CompanyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="93" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -1024,7 +924,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1201,14 +1101,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/CompanyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="93" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+        <state line="9" column="93" selection-start="547" selection-end="547" vertical-scroll-proportion="0.040515654">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/PositionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="4" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.039568346">
           <folding />
         </state>
       </provider>
@@ -1238,7 +1138,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zs/service/impl/DubboServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="0.58801496">
+        <state line="19" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="0.60431653">
           <folding />
         </state>
       </provider>
