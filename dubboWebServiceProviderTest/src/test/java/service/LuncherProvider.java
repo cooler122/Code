@@ -12,8 +12,10 @@ public class LuncherProvider  {
 	}
 	
 	void start(){
-		String configLocation= "spring/spring-service-provider.xml";
-		ApplicationContext context =new  ClassPathXmlApplicationContext(configLocation);
+        String mybatisConf = "spring/spring-config.xml";
+
+//		ApplicationContext context =new  ClassPathXmlApplicationContext(configLocation);
+        ApplicationContext context =new  ClassPathXmlApplicationContext(mybatisConf);
 		String [] names=context.getBeanDefinitionNames();
         for(String name : names){
             System.out.println(name);

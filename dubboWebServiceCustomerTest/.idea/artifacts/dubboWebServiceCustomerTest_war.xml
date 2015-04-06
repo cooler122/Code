@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="dubboWebServiceCustomerTest:war">
-    <output-path>$PROJECT_DIR$/../dubboWebCustomerServiceTest/target</output-path>
+    <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="tan-springmvc-book.war">
       <element id="artifact" artifact-name="dubboWebServiceCustomerTest:war exploded" />
     </root>

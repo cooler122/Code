@@ -1,6 +1,6 @@
 package com.zs.controller;
 
-import com.zs.service.DubboService;
+import com.zs.service._DubboService;
 import com.zs.vo.MsgInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,7 +15,7 @@ import java.util.List;
 public class DubboController {
 
     @Autowired
-	private DubboService dubboService;
+	private _DubboService dubboService;
 	
 	@ResponseBody
 	@RequestMapping(value = "/json")
@@ -38,8 +38,9 @@ public class DubboController {
             msgInfoParam.setMsgs(msgs);
 
             MsgInfo msgInfoResult = dubboService.returnMsgInfo(msgInfoParam);    //输出参数
-            for(String msg : msgInfoResult.getMsgs()){
-                System.out.println(msgs);
+            List<String> msgList = msgInfoResult.getMsgs();
+            for(String msg : msgList){
+                System.out.println(msg);
             }
             map.addAttribute("msg", msgInfoResult);
 			return "pages/dubboPage";

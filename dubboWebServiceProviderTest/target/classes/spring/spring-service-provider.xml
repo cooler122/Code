@@ -18,12 +18,14 @@
     <bean id="companyService" class="com.zs.service.impl.CompanyServiceImpl" />
     <bean id="positionService" class="com.zs.service.impl.PositionServiceImpl" />
     <bean id="userService" class="com.zs.service.impl.UserServiceImpl" />
-    <bean id="dubboService" class="com.zs.service.impl.DubboServiceImpl" />
+    <bean id="dubboService" class="com.zs.service.impl._DubboServiceImpl" />
+    <bean id="redisService" class="com.zs.service.impl._RedisServiceImpl" />
 
 	<dubbo:service interface="com.zs.service.ChildService" ref="childService" />
     <dubbo:service interface="com.zs.service.CompanyService" ref="companyService" />
     <dubbo:service interface="com.zs.service.PositionService" ref="positionService" />
     <dubbo:service interface="com.zs.service.UserService" ref="userService" />
-    <dubbo:service interface="com.zs.service.DubboService" ref="dubboService" />
+    <dubbo:service interface="com.zs.service._DubboService" ref="dubboService" />
+    <dubbo:service interface="com.zs.service._RedisService" ref="redisService" />
 
 </beans>

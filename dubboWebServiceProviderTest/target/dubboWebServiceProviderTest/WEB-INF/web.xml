@@ -8,42 +8,38 @@
     <!-- 日志记录 -->
     <context-param>
         <param-name>log4jConfigLocation</param-name>
-        <param-value>classpath:conf/log4j.properties</param-value><!-- 日志配置文件路径 -->
+        <param-value>classpath:conf/log4j.properties</param-value>                          <!-- 日志配置文件路径 -->
     </context-param>
     <context-param>
-        <param-name>log4jRefreshInterval</param-name><!-- 日志页面的刷新间隔 -->
+        <param-name>log4jRefreshInterval</param-name>                                       <!-- 日志页面的刷新间隔 -->
         <param-value>6000</param-value>
     </context-param>
 	<listener>
-		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class><!-- Spring的log4j监听器 -->
+		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>  <!-- Spring的log4j监听器 -->
 	</listener>
 
-	<!-- 核心控制器 -->
-	<servlet>
-		<servlet-name>springmvcTest</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<init-param>
-			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/applicationContext.xml</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-
-    <!-- 读取spring配置文件 -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <!-- Spring ApplicationContext配置文件的路径,可使用通配符,多个路径用,号分隔 此参数用于后面的Spring Context Loader -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>
-            classpath:spring/spring-service-provider.xml;
-            classpath:spring/spring-mybatis.xml
-        </param-value>
+        <param-value>classpath:spring/spring-config.xml</param-value>
     </context-param>
+
+    <servlet>
+        <servlet-name>springmvcTest</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath*:spring/spring-config-mvc.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>springmvcTest</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
